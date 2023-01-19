@@ -41,15 +41,15 @@
 
 
 
-## <a name="m2">Method 2: 安装虚拟机</a>
+### <a name="m2">Method 2: 安装虚拟机</a>
 
-### Step 1: 官网
-
-
+#### Step 1: 官网
 
 
 
-## <a name="m3">Method 3: 搭建并使用 WSL 环境</a>
+
+
+### <a name="m3">Method 3: 搭建并使用 WSL 环境</a>
 
 
 
