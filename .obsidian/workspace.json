@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "2cbe49d68072e679",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9a68c366e44f97a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "484cac35f31891d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Starter/1-Prepare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a2eda7c594cdf6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Starter/1-Prepare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d25d205b179f9458",
+    "type": "split",
+    "children": [
+      {
+        "id": "308e801ab1ffebbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6131de3166dbdd9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "618a32389014dae5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "88259df8a5cd50ed",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba782c07cb3d18e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c861ad0d3d66600",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a30d0dd6a6d463b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Starter/1-Prepare.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e187f8f85b476804",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Starter/1-Prepare.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b951a7c40d3ce1a5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "57d220303921baee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Starter/1-Prepare.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "3a2eda7c594cdf6d",
+  "lastOpenFiles": [
+    "Notes/images/ventoy.png",
+    "Notes/README.md",
+    "Notes/About-Linux.md",
+    "Notes/Starter/1-Prepare.md",
+    "README.md",
+    "Notes/Starter/Shell.md",
+    "().md",
+    "liaoxinkai0756@gmail.com.md",
+    "未命名.md"
+  ]
+}
