@@ -1,4 +1,6 @@
-# 介绍 Linux
+# 🐧 介绍 Linux
+
+> 本篇大部分内容引用于[维基百科](https://zh.m.wikipedia.org/zh-hans/Linux)
 
 ## 简述
 
@@ -11,20 +13,25 @@ Linux 也是自由软件和开放源代码软件发展中最著名的例子。
 
 Linux 发行版指的就是所谓的 Linux 操作系统。它由 Linux 内核、系统工具、命令行 Shell、桌面环境等所有应用软件打包而成。
 
-由于 Linux 系统的自由以及开源，Linux 发行版被个人、组织、公司制作并发行。现如今比较知名的发行版有如下：
+由于 Linux 是自由软件，任何人都可以创建一个符合自己需求的 Linux 发行版。
 
-- Debian
-	- Ubuntu
-	- Deepin
-	- Kali Linux
-	- Linux Mint
-- Fedora
-	- CentOS
-	- Red Hat Enterprise Linux
-	- Rocky Linux
-- Arch Linux
-	- Manjaro Linux
-- openSUSE
+目前使用较为广泛的 Linux 发行版有以下：
+
+- [Debian](https://www.debian.org/)
+	- [Ubuntu](https://ubuntu.com/)
+	- [Deepin](https://www.deepin.org/)
+	- [Kali](https://www.kali.org/)
+	- [Linux Mint](https://linuxmint.com/)
+	- [Zorin OS](https://zorin.com/os/)
+- [Fedora](https://getfedora.org/)
+	- [CentOS](https://www.centos.org/)
+	- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+	- [Rocky Linux](https://rockylinux.org/)
+- [Arch Linux](https://archlinux.org/)
+	- [Manjaro Linux](https://manjaro.org/)
+- [SUSE](https://www.suse.com/)
+  - [openSUSE](https://www.opensuse.org/)
+
 
 > 💡 **提示**
 >
@@ -53,6 +60,10 @@ Linux 发行版是构成 LAMP（Linux 操作系统，Apache，MySQL，Perl / PHP
 ### 4、嵌入式设备
 
 Linux 的低成本、强大的定制功能以及良好的移植性能，使得 Linux 在嵌入式系统方面也得到广泛应用。如手机（Mobile Phone）、平板电脑（Tablet）、路由器（Router）、电视（TV）和电子游戏机等。
+
+### 5、上网本
+
+Linux 发行版同样在上网本市场很受欢迎，像 ASUS Eee PC 和 Acer Aspire One，销售时安装有订制的 Linux 发行版。
 
 
 
