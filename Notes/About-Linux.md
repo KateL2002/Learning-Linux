@@ -35,7 +35,9 @@ Linux 发行版指的就是所谓的 Linux 操作系统。它由 Linux 内核、
 
 > 💡 **提示**
 >
-> 你可以根据自己的喜好，来选择 Linux 发行版。当然，你也可以直接访问 [DistroWatch](https://distrowatch.com/) 网站来选择自己喜欢的发行版。
+> 你可以根据自己的喜好以及需求，在上方点击选择一个 Linux 发行版以了解详情。
+>
+> 当然，你可以访问 [DistroWatch](https://distrowatch.com/) 网站，此网站包含了全球所有的 Linux 发行版，你可以通过此网站来选择自己喜欢的发行版。
 
 ## Linux 的应用
 
@@ -64,8 +66,6 @@ Linux 的低成本、强大的定制功能以及良好的移植性能，使得 L
 ### 5、上网本
 
 Linux 发行版同样在上网本市场很受欢迎，像 ASUS Eee PC 和 Acer Aspire One，销售时安装有订制的 Linux 发行版。
-
-
 
 
 
