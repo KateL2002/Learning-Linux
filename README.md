@@ -1,4 +1,4 @@
-# Linux-Tutorial
+# 📔 README
 
 ## 概述
 
@@ -35,5 +35,7 @@
 ## 关于作者
 
 您可以通过以下方式，来联系本作者：
+
 [Outlook](mailto:liaoxinkai0756@outlook.com) / [Foxmail](mailto:liaoxinkai0756@foxmail.com) / [Gmail](liaoxinkai0756@gmail.com)
+
 本作者尽可能会在几天之内回复

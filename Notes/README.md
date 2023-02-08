@@ -112,12 +112,12 @@
     - vim
     - nano
 
-- 额外内容
-  - [Shell 指令速查表](Extra/Shell-Command.md):
+- **额外内容**
+  - [Shell 指令速查表](Extra/Shell-Command.md)
 
       在这里寻找你想要使用的 Shell 指令
 
-  - 正则表达式：
+  - 正则表达式
 
       所有关于 Linux 的正则表达式，都在这里列举了
 

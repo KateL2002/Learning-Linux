@@ -1,8 +1,48 @@
 # 准备 Linux 环境
 
+## 1、安装与配置
+
 在开始之前，首先你必须要搭建 Linux 使用环境，在此节中，您可以通过以下方式来进行搭建！
 
-### <a name="m1">Method 1: 双系统安装</a>
+### <a name="m2">Method 1: 虚拟机安装</a>
+
+#### Step 1: 下载虚拟机
+
+此处列举以下软件，请根据自己的需求，选择适合的虚拟机软件即可。
+
+- [Oracle VM VirtualBox](https://www.virtualbox.org/)
+
+- [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+
+#### Step 2: 下载 Linux 安装镜像
+
+打开对应的官网下载页面。根据自己设备的硬件架构来安装，比如下载安装 x86_64 的镜像文件。
+
+关于 Linux 发行版，请跳转至 [介绍 Linux - Linux 发行版](../About-Linux.md) 一节
+
+#### Step 3：创建与配置虚拟机
+
+这里就以 Oracle VM VirtualBox 7.0.6 为例
+
+1) 打开软件，选择【新建】。
+   ![](../images/vbox_step1.png)
+
+2. 在此对话框下，输入【虚拟机名称】（**名字尽量起英文名**）。
+   ![](../images/vbox_step2.png)
+
+3. 选择适合的内存大小，这里建议选择 2GB （即 2048 MB）
+   ![](../images/vbox_step3.png)
+
+   > 💡 **提示**
+   >
+   > 勾选【Enable EFI】选项，启动虚拟机时将以 UEFI 形式启动
+
+4. 创建虚拟硬盘，并设置硬盘空间大小。
+   ![](../images/vbox_step4.png)
+
+
+
+### <a name="m1">Method 2: 双系统安装</a>
 
 #### Step 1: 准备
 
@@ -14,7 +54,7 @@
 
 #### Step 2: 磁盘分区
 
-在安装 Linux 系统之前，若要将 Linux 系统安装在本机，请提前做好硬盘分区。
+**在安装 Linux 系统之前，若要将 Linux 系统安装在本机，请提前做好硬盘分区。**
 
 若当前使用的是 Windows 系统，这里建议使用 Windows 磁盘管理进行分区，如下图所例：
 
@@ -77,26 +117,6 @@
 
 
 
-### <a name="m2">Method 2: 虚拟机安装</a>
-
-#### Step 1: 下载虚拟机
-
-此处列举以下软件，请根据自己的需求，选择适合的虚拟机软件即可。
-
-- [Oracle VM VirtualBox](https://www.virtualbox.org/)
-
-- [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
-
-#### Step 2: 下载 Linux 安装镜像
-
-打开对应的官网下载页面。根据自己设备的硬件架构来安装，比如下载安装 x86_64 的镜像文件。
-
-关于 Linux 发行版，请跳转至 [介绍 Linux - Linux 发行版](../About-Linux.md) 一节
-
-#### Step 3：创建虚拟机
-
-
-
 
 
 ### <a name="m3">Method 3: 搭建并使用 WSL 环境</a>
@@ -110,6 +130,12 @@
 > 关于安装 WSL，请访问下方链接：
 >
 > https://learn.microsoft.com/zh-cn/windows/wsl/install
+
+
+
+## 2、安装 Linux 操作系统
+
+由于每个 Linux 发行版都有属于自己的安装程序。此节就以安装 Rocky Linux（基于 Red Hat Enterprise Linux）为例。
 
 
 

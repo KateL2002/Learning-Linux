@@ -18,8 +18,8 @@ Linux 发行版指的就是所谓的 Linux 操作系统。它由 Linux 内核、
 目前使用较为广泛的 Linux 发行版有以下：
 
 - [Debian](https://www.debian.org/)
-	- [Ubuntu](https://ubuntu.com/)
-	- [Deepin](https://www.deepin.org/)
+	- [Ubuntu](https://ubuntu.com/)：主流的操作系统，适合应用于云计算、服务器等领域
+	- [Deepin](https://www.deepin.org/)：国内自主的
 	- [Kali](https://www.kali.org/)
 	- [Linux Mint](https://linuxmint.com/)
 	- [Zorin OS](https://zorin.com/os/)
