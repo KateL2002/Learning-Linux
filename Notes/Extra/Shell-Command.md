@@ -90,5 +90,5 @@
 | 查看物理网卡 IP 地址 | `ip addr`                                                    | 此命令可直接简写为 `ip a`                                    |
 |   查看物理网卡配置   | 1. `ifconfig`<br/>2. `ifconfig <网卡名>`<br/><br />          | 1. 显示所有网卡配置<br/>2. 显示指定网卡配置<br />❗：若无法执行此指令，请下载安装 `net-tools` 软件包 |
 |     文件下载工具     | `wget <file_url>`                                            | 从某个 url 中下载文件到当前工作路径                          |
-|       SSH 连接       | `ssh username@<hostname / ip地址> [-p <22 / 指定端口号>]`    | 使用 SSH 方式连接远程主机，其中的 22 端口为 SSH 默认端口     |
+|       SSH 连接       | `ssh username@<hostname / ip地址> [-p <22 / 指定端口号>]`    | 使用 SSH 方式连接远程主机，<br />`22` 为 SSH 默认端口        |
 |     传输文件工具     | 0. `scp [<用户名>@<主机名/IP地址>:]<需传输的文件目录> <用户名>@<主机名/IP地址>:<目标目录>`<br />1. `scp user@hostA:~/a.txt user@hostB:~/doc`<br />2. `scp test.txt user@hostA:/doc` | 0. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />1. 将主机`hostA`下的主目录里的 `a.txt` 文件传输到主机 `hostB` 下的 `~/doc` 目录中<br />2. 将自己主机下的当前目录里的 `test.txt` 文件传输到主机 `hostA` 下的`/doc` 目录中 |

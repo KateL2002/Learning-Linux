@@ -4,6 +4,8 @@
 
 ## 简述
 
+<img src="images/linux.png" style="zoom: 30%; " />
+
 Linux 是一种自由和开放源码的类 UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布，再加上用户空间的应用程序之后，就成为了 Linux 操作系统。
 
 Linux 也是自由软件和开放源代码软件发展中最著名的例子。
@@ -17,20 +19,21 @@ Linux 发行版指的就是所谓的 Linux 操作系统。它由 Linux 内核、
 
 目前使用较为广泛的 Linux 发行版有以下：
 
-- [Debian](https://www.debian.org/)
-	- [Ubuntu](https://ubuntu.com/)：主流的操作系统，适合应用于云计算、服务器等领域
-	- [Deepin](https://www.deepin.org/)：国内自主的
-	- [Kali](https://www.kali.org/)
-	- [Linux Mint](https://linuxmint.com/)
-	- [Zorin OS](https://zorin.com/os/)
-- [Fedora](https://getfedora.org/)
-	- [CentOS](https://www.centos.org/)
-	- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-	- [Rocky Linux](https://rockylinux.org/)
-- [Arch Linux](https://archlinux.org/)
-	- [Manjaro Linux](https://manjaro.org/)
-- [SUSE](https://www.suse.com/)
-  - [openSUSE](https://www.opensuse.org/)
+- [Debian](https://www.debian.org/)：完全由自由软件组成的类 UNIX 操作系统**（原始）**
+	- [Ubuntu](https://ubuntu.com/)：主流的 Linux 发行版
+	  - [Linux Mint](https://linuxmint.com/)：易于使用、且开箱即用的 Linux 发行版
+	  - [Zorin OS](https://zorin.com/os/)：易于使用且最接近 Windows 的 Linux 发行版
+	- [Deepin](https://www.deepin.org/)：国内自主研发的 Linux 发行版，适配了国内大多数的必备软件，适合国人使用
+	- [Kali](https://www.kali.org/)：一个专为黑客使用的 Linux 发行版
+	- [SteamOS](https://store.steampowered.com/steamos/)：一个专为游戏玩家开发的 Linux 发行版
+- [Fedora](https://getfedora.org/)：是一套功能完备、更新快速的免费 Linux 发行版，且是商业化的 RHEL 发行版的上游源码
+	- [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)（RHEL）：面向企业的商业化 Linux 发行版，有付费订阅机制以管理软件包更新安装、维护系统稳定运行
+	  - [CentOS](https://www.centos.org/)：基于 RHEL 发行版，是免费且成本最低的发行版，在服务器领域较为广泛，适用于大多数中小型企业使用
+	  - [Rocky Linux](https://rockylinux.org/)：旨在成为一个使用 RHEL 发行版源代码的完整的下游二进制兼容版本。该项目提供一个由社区支持且可用于生产的企业操作系统。是企业的另一热门选择
+- [Arch Linux](https://archlinux.org/)：是一个简洁且自由的 Linux 发行版，适合**“不惧怕命令行的 中高级 Linux 玩家”**
+	- [Manjaro Linux](https://manjaro.org/)：基于 Arch Linux 发行版，简化了安装系统的过程。适合中级 Linux 玩家
+- [openSUSE](https://www.suse.com/)：一个 Linux 新手较为友好的 Linux 发行版，拥有易于使用的桌面环境和功能丰富的服务器环境
+  - [SUSE Linux Enterprise](https://www.opensuse.org/)：企业级 Linux 发行版
 
 
 > 💡 **提示**
@@ -43,7 +46,7 @@ Linux 发行版指的就是所谓的 Linux 操作系统。它由 Linux 内核、
 
 ### 1、服务器
 
-现如今，大多数服务器使用 Linux 操作系统，并且在计算机领域中占据着非常重要的地位。
+现如今，大多数服务器使用 Linux 发行版，并且在计算机领域中占据着非常重要的地位。
 
 Linux 发行版是构成 LAMP（Linux 操作系统，Apache，MySQL，Perl / PHP / Python）的重要部分，LAMP 是一个常见的网站托管平台，在开发者中已经得到普及。
 

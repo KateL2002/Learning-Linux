@@ -22,14 +22,18 @@
 
 #### Step 3：创建与配置虚拟机
 
-这里就以 Oracle VM VirtualBox 7.0.6 为例
+这里就以使用 Oracle VM VirtualBox 7.0.6 安装配置虚拟机为例
 
 1) 打开软件，选择【新建】。
    ![](../images/vbox_step1.png)
 
-2. 在此对话框下，输入【虚拟机名称】（**名字尽量起英文名**）。
+2. 在此对话框下，在【Name】项输入虚拟机名称（**名字尽量起英文名**）
    ![](../images/vbox_step2.png)
-
+   
+   > ❗ **注意**
+   > 
+   > 在 Windows 操作系统下，请务必在【Folder】项修改自己的虚拟机保存位置，以免出现C盘空间不足的情况
+   
 3. 选择适合的内存大小，这里建议选择 2GB （即 2048 MB）
    ![](../images/vbox_step3.png)
 
@@ -39,8 +43,15 @@
 
 4. 创建虚拟硬盘，并设置硬盘空间大小。
    ![](../images/vbox_step4.png)
+   
+5. 最终确认自己配置的虚拟机信息
+   ![](../images/vbox_step5.png)
 
+6. 完成之后点击【启动】，即可开启虚拟机
+   ![](../images/vbox_step6.png)
 
+7. 启动后，出现如下对话框，选择自己下载好的安装镜像并载入；完成后，点击【Mount and Retry Boot】。重新启动后即可进入系统安装界面
+   ![](../images/vbox_step7.png)
 
 ### <a name="m1">Method 2: 双系统安装</a>
 
@@ -117,8 +128,6 @@
 
 
 
-
-
 ### <a name="m3">Method 3: 搭建并使用 WSL 环境</a>
 
 > 📚 **扩展**
@@ -135,7 +144,48 @@
 
 ## 2、安装 Linux 操作系统
 
-由于每个 Linux 发行版都有属于自己的安装程序。此节就以安装 Rocky Linux（基于 Red Hat Enterprise Linux）为例。
+由于每个 Linux 发行版都有属于自己的安装程序。此节就以安装 [Rocky Linux](../About-Linux.md) 及桌面环境为例。
 
+1. 在启动界面下，使用方向键选择【Install Rocky Linux 8】并按下 <kbd>Enter</kbd> 键
+   ![](../images/install_bios.png)
 
+   > 💡 **提示**
+   >
+   > 使用 EFI 与 BIOS 启动时，Grub 引导菜单界面有所不同，下图为 EFI 启动时的引导画面
+   >
+   > <img src="../images/install_efi.png" style="zoom: 75%;" />
+   
+2. 等待进入系统并载入安装程序界面，在此界面下，选择语言。
+   ![](../images/install_step1.png)
 
+   
+
+3. 点击下一步后，在【安装信息概要】界面下，建议做好以下配置，如下图：
+   <img src="../images/install_step2.png" style="zoom:80%;" />
+
+4. 首先在【时间和日期】下，选择亚洲/上海作为默认时区
+   <img src="../images/install_step5.png" style="zoom:80%;" />
+
+5. 选择【网络和主机名】，将默认的网络打开
+   <img src="../images/install_step3_1.png" style="zoom:80%;" />
+
+6. 选择【安装源】，并选择【在网络上】，选择【最近的镜像】，点击【完成】即可。这里需要等待一段时间
+   <img src="../images/install_step3_2.png" style="zoom: 80%;" />
+
+7. 选择【软件选择】，在这里可以根据自己的情况及需求选择要预装的软件，这里就选择【带 GUI 的服务器】，其它选项不变
+   <img src="../images/install_step3_3.png" style="zoom:80%;" />
+
+8. 选择【安装目标位置】，在此处选择要安装的硬盘，点击之后完成即可
+   <img src="../images/install_step4.png" style="zoom:80%;" />
+   
+9. 选择【ROOT 密码】，在此处设置 Root 用户密码 
+   <img src="../images/install_step6_1.png" style="zoom:80%;" />
+
+10. 创建普通用户，这里最好设置为管理员身份，以更方便地管理系统操作
+   <img src="../images/install_step6_2.png" style="zoom:80%;" />
+
+11. 完成以上操作，点击【开始安装】。
+
+    <img src="../images/install_step7.png" style="zoom:80%;" />
+
+12. 等待完成后，点击【重启系统】完成安装

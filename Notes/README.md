@@ -47,11 +47,11 @@
 
         开始学习前，先来了解 Linux 
 
-    - [准备 Linux 环境](1-Prepare.md)：
+    - [准备 Linux 环境](Starter/1-Prepare.md)：
 
         从此刻开始搭建 Linux 环境，**没有环境就无法运行 Linux**
 
-    - 学习 Shell 命令：
+    - 入门 Shell：
 
         从这里开始学习 Shell 的基础命令
 
@@ -96,21 +96,6 @@
     - 容器管理
     - 硬盘管理
     - 网络系统
-
-- 按分类找命令
-
-  - 日期 / 时间
-    - date
-    - timedatectl
-    - chrony
-  - 查找与筛选
-    - grep
-    - find
-    - which
-    - whereis
-  - 文本编辑
-    - vim
-    - nano
 
 - **额外内容**
   - [Shell 指令速查表](Extra/Shell-Command.md)
