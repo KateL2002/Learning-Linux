@@ -52,7 +52,7 @@
 |         显示尾部文件内容         | 1. `tail <file1> [file2]...`<br/>2. `tail -n x <file1> [file2]...`<br />3. `tail -f <file1> [file2]...` | 1. 默认查看尾 10 行<br/>2. 查看尾 x 行<br />3. 监视文件的内容（常用于查看日志） |
 |      统计字数、行数、单词数      | 1. `wc <file1> [file2]...`<br />2. `-l`<br />3. `-m`<br />4. `-w` | 1. 统计所有<br />2. 统计行数<br />3. 统计字数<br />4. 统计词数 |
 |        比较两个文件的不同        | `diff <file1> <file2>`                                       | 比较 `file1` 与 `file2` 的不同                               |
-|             筛选工具             | 1. `<command> | grep <String>`<br />2. `grep <keyword> <file1> [file2] `<br /> | 1. 通过此方法可直接筛选并输出<br />2. 在单个或多个文件中查找行内包含的关键字并输出 |
+|             筛选工具             | 1. `<command> \| grep <String>`<br />2. `grep <keyword> <file1> [file2] `<br /> | 1. 通过此方法可直接筛选并输出<br />2. 在单个或多个文件中查找行内包含的关键字并输出 |
 |        将输出结果写入文件        | 1. `<command> > <file>`<br />2. `<command> >> <file>`<br />  | 1. 将命令的执行结果**覆盖写入**至文件中<br />2. 将命令的执行结果**追加写入**至文件中<br /> |
 |      以行编辑模式下编辑文件      | 1. `tee <file>`<br />2. `tee -a <file>`                      | 1. 将写入的内容**覆盖保存**到文件中<br />2. 将写入的内容**追加保存**到文件中<br />💡：使用行编辑模式下可直接在行内编辑并回车，编辑完成后，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束编辑并保存<br /> |
 | vim 文本编辑器 / nano 文本编辑器 | 1. `vi [file]` / `vim [file]`<br />2. `nano [file]`          | 1. 使用 vi / vim 文本编辑器打开或新建文件<br />其中，vim 编辑器为 vi 的加强版<br />❗：部分 Linux 发行版默认未安装 `vim` 软件包<br /><br />2. 使用 nano 文本编辑器打开或新建文件 |
@@ -85,10 +85,10 @@
 | :------------------: | :----------------------------------------------------------- | ------------------------------------------------------------ |
 |       网络配置       | 1. `nmcli`<br />2. `nmtui`                                   | 1. 命令行下查看所有网络配置<br />2. 图形化界面管理网络配置   |
 |     测试网络连通     | 1. `ping <IP / Hostname>`<br />2. `ping -c 4 <IP / Hostname>` | 1. 测试指定 IP 地址或域名是否连通<br />2. 发送 4 个数据包以测试连通性 |
-|     显示网络状态     | 1. `netstat -a`<br />2. `netstat -nu`<br />3. `netstat -apu`<br />4. `netstat -i`<br />5. `netstat -r`<br />6. `netstat -ap [ | grep SERVICE] ` | 1. 查看当前系统网络状态的所有连接信息<br />2. 查看 UDP 连接信息<br />3. 查看 UDP 连接端口号使用信息<br />4. 查看网卡状态信息<br />5. 查看网络路由表状态信息<br />6. 搜索某个服务所对应的连接信息 |
+|     显示网络状态     | 1. `netstat -a`<br />2. `netstat -nu`<br />3. `netstat -apu`<br />4. `netstat -i`<br />5. `netstat -r`<br />6. `netstat -ap \| grep [SERVICE] ` | 1. 查看当前系统网络状态的所有连接信息<br />2. 查看 UDP 连接信息<br />3. 查看 UDP 连接端口号使用信息<br />4. 查看网卡状态信息<br />5. 查看网络路由表状态信息<br />6. 搜索某个服务所对应的连接信息 |
 |      IP 路由表       | `route` / `ip route`                                         | 查看 IP 路由表                                               |
 | 查看物理网卡 IP 地址 | `ip addr`                                                    | 此命令可直接简写为 `ip a`                                    |
 |   查看物理网卡配置   | 1. `ifconfig`<br/>2. `ifconfig <网卡名>`<br/><br />          | 1. 显示所有网卡配置<br/>2. 显示指定网卡配置<br />❗：若无法执行此指令，请下载安装 `net-tools` 软件包 |
 |     文件下载工具     | `wget <file_url>`                                            | 从某个 url 中下载文件到当前工作路径                          |
 |       SSH 连接       | `ssh username@<hostname / ip地址> [-p <22 / 指定端口号>]`    | 使用 SSH 方式连接远程主机，<br />`22` 为 SSH 默认端口        |
-|     传输文件工具     | 0. `scp [<用户名>@<主机名/IP地址>:]<需传输的文件目录> <用户名>@<主机名/IP地址>:<目标目录>`<br />1. `scp user@hostA:~/a.txt user@hostB:~/doc`<br />2. `scp test.txt user@hostA:/doc` | 0. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />1. 将主机`hostA`下的主目录里的 `a.txt` 文件传输到主机 `hostB` 下的 `~/doc` 目录中<br />2. 将自己主机下的当前目录里的 `test.txt` 文件传输到主机 `hostA` 下的`/doc` 目录中 |
+|     传输文件工具     | 1. `scp [<用户名>@<主机名/IP地址>:]<需传输的文件目录> <用户名>@<主机名/IP地址>:<目标目录>`<br />2. `scp user@hostA:~/a.txt user@hostB:~/doc`<br />3. `scp test.txt user@hostA:/doc` | 1. 将其中一台主机中的文件或目录传输到另一台主机的目录中<br />2. 将主机`hostA`下的主目录里的 `a.txt` 文件传输到主机 `hostB` 下的 `~/doc` 目录中<br />3. 将自己主机下的当前目录里的 `test.txt` 文件传输到主机 `hostA` 下的`/doc` 目录中 |
