@@ -6,8 +6,6 @@
 
 从此刻开始，你将会学到许多关于 Linux 的基础及应用。
 
-**此笔记内容所使用的 Linux 发行版以 [Rocky Linux 8.7](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso) 作为学习案例。**
-
 所有笔记中所提到的命令特殊符号：
 
 - `<example>`：必选，表示必须添加；
