@@ -119,7 +119,7 @@
 
       在这里寻找你想要使用的 Shell 指令
 
-  - 🔖 正则表达式
+  - 🔖 [正则表达式](Notes/Extra/Expression.md)
 
       所有关于 Linux 的正则表达式，都在这里列举了
 
