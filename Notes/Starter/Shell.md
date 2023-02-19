@@ -52,6 +52,10 @@ localhost.localdomain
 [root@localhost ~]# 
 ```
 
+> 💡 **提示**
+>
+> 关于 Shell 的更多命令，请直接跳转至 [🔖 Shell 命令速查表](../Extra/Shell-Command.md)。
+
 #### 2）组合命令
 
 在一行内可以使用`;`、`&&`、`||`符号连接多条命令并组合，如：`date ; whoami ; hostname`
@@ -157,8 +161,6 @@ linux.words  words
   | <kbd>Ctrl</kbd>+<kbd>Z</kbd>                     | 将当前正在执行的程序转入后台（执行 `fg` 命令转回前台）       |
   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Fn</kbd>     | 切换第 n 个终端（如 <kbd>F1</kbd> 为 1 号终端，一般至多有 6 个） |
   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> | 👍 重启，（在桌面环境下，需要确认是否注销）                   |
-
-
 
 
 
