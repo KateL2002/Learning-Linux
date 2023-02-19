@@ -4,7 +4,7 @@
 
 ## 简述
 
-<img src="images/linux.png" style="zoom: 30%; " />
+<img src="images/About/linux.png" style="zoom: 30%; " />
 
 Linux（**L**inus **i**s **n**ot **U**ni**x**） 是一种自由和开放源码的类 UNIX 操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布，再加上用户空间的应用程序之后，就成为了 Linux 操作系统。
 
