@@ -158,3 +158,7 @@ linux.words  words
   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Fn</kbd>     | 切换第 n 个终端（如 <kbd>F1</kbd> 为 1 号终端，一般至多有 6 个） |
   | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Delete</kbd> | 👍 重启，（在桌面环境下，需要确认是否注销）                   |
 
+
+
+
+
