@@ -68,7 +68,7 @@
 
         开始学习前，先来了解 Linux 
 
-    - 🔖 [准备 Linux 环境](Notes/Starter/Prepare.md)：
+    - 🔖 [安装 Linux 环境](Notes/Starter/Prepare.md)：
 
         从此刻开始搭建 Linux 环境，**没有环境就无法运行 Linux**
 

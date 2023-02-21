@@ -194,13 +194,32 @@
 
 ### <a name="m3">Method 3: 搭建并使用 WSL 环境</a>
 
+>🕮 **引用**
+>
+>WSL（Windows Subsystem Linux）是适用于 Linux 的 Windows 子系统。它可让开发人员按原样运行 GNU/Linux 环境 - 包括大多数命令行工具、实用工具和应用程序，且不会产生传统虚拟机或双启动设置开销。
+
+在 Windows 10 及以上版本中，使用 WSL 也能实现安装并搭建 Linux 运行环境。
+
+关于 WSL 的好处有以下几点：
+
+- 微软出品
+- 无需虚拟机，无需双系统
+- 简单、方便，不会占用巨大的内存
+- 可快速打开，无需漫长等待开机过程
+
+下面是简要步骤：
+
+1. 首先 🔗 [点击此链接](https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R)：它将会自动跳转并打开 Microsoft Store 应用，并点选下载安装。完成之后需要重启电脑
+2. 打开 Microsoft Store，并搜索 **WSL** ，选择你想要安装的 Linux 发行版。
+3. 完成之后，根据提示输入对应的 ROOT 密码即可完成安装。
+
+若您已完成这一整个安装，您可以直接 🔖 [开始学习 SHELL](Shell.md)。
+
 > 🔗 **相关内容**
 >
-> *WSL（Windows Subsystem Linux）是适用于 Linux 的 Windows 子系统。它可让开发人员按原样运行 GNU/Linux 环境 - 包括大多数命令行工具、实用工具和应用程序 - 且不会产生传统虚拟机或双启动设置开销。*
+> 更多有关于 WSL 的相关内容，请访问下方链接：
 >
-> 关于安装 WSL，请访问下方链接：
->
-> https://learn.microsoft.com/zh-cn/windows/wsl/install
+> 🔗 https://learn.microsoft.com/zh-cn/windows/wsl
 
 
 
@@ -292,6 +311,12 @@
 >
 > 若需要以 ROOT 身份登录，请直接点击【未列出】（GNOME 环境下）或【其它用户】，然后输入用户名`root`及其密码即可登录！
 
+>🔗 **相关内容**
+>
+>至此，您已经完成了所有安装步骤，接下来您可以直接跳转至下一章节：
+>
+>- 🔖 [开始学习 SHELL](Shell.md)
+
 ## 3、远程登录终端
 
 > 🕮 **引言**
@@ -370,8 +395,3 @@
 
 4. 如果想要退出当前 SSH，请输入指令：`exit` / `logout` 或按下快捷键 <kbd>Ctrl</kbd> + <kbd>D</kbd> 退出 SSH 连接
 
-> 🔗 **相关内容**
->
-> 至此，您已经完成了所有安装步骤，接下来您可以直接跳转至下一章节：
->
-> - [开始学习 SHELL](Shell.md)
