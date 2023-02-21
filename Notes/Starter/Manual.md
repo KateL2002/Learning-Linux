@@ -74,5 +74,5 @@ Man Page 为系统手册页，是早期时的 Linux 使用手册，它包含许�
 | <kbd>N</kbd>      | 重复之前向上搜索的内容     |
 | <kbd>g</kbd>      | 转移到开头                 |
 | <kbd>G</kbd>      | 转移到末尾                 |
-| <kbd>q</kbd>      | 退出man                    |
+| <kbd>q</kbd>      | 退出 Man Page              |
 
