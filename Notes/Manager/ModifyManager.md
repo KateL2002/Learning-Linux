@@ -1,6 +1,6 @@
 ## 权限管理
 
-### 💡  学前需知
+### 概述
 
 权限（Permissions）：控制对文件及目录的访问、创建、修改、删除等一系列操作
 
@@ -221,18 +221,15 @@ drwxr-xr-x. 2 test testGroup 6 11月  4 20:30 桌面
   为三个文件分别添加权限：
 
   ```shell
-  [root@localhost ~]# chmod u=rw,g=r,o=r 1.txt	# 给所属用户添加特殊权限
-  [root@localhost ~]# chmod 2644 2.txt			# 给所属组添加特殊权限
-  [root@localhost ~]# chmod o+t 3.txt				# 给其他用户组添加特殊权限
+  [root@localhost ~]# chmod 4644 1.txt	# 给所属用户添加特殊权限
+  [root@localhost ~]# chmod 2644 2.txt	# 给所属组添加特殊权限
+  [root@localhost ~]# chmod 1644 3.txt	# 给其他用户组添加特殊权限
   [root@localhost ~]# ll
   总用量 8
   -rwSr--r--. 1 root root    0 11月  8 04:31 1.txt
   -rw-r-Sr--. 1 root root    0 11月  8 04:31 2.txt
   -rw-r--r-T. 1 root root    0 11月  8 04:31 3.txt
-  -rw-------. 1 root root 1423 11月  5 09:37 anaconda-ks.cfg
-  -rw-r--r--. 1 root root 1578 11月  5 09:58 initial-setup-ks.cfg
-  drwxr-sr-x. 2 root root  117 11月  8 04:11 test
   ```
-
-  > 注：三个文件所对应的权限标识不同
+  
+  > 注：三个文件所对应的权限标识不同！
 

@@ -90,13 +90,13 @@
 
         学习文件是如何写入的，以及如何简单使用 vim 文本编辑器
 
-    - 🔖 [权限管理]()
-
-        包含的 Shell 指令：`chmod` / `chown` / `chgrp`
-
-    - 🔖 [用户管理]()
+    - 🔖 [用户管理](Notes/Manager/UserManager.md)
 
         包含的 Shell 指令：`useradd` / `userdel` / `groupadd` / `groupdel`
+
+    - 🔖 [权限管理](Notes/Manager/ModifyManager.md)
+
+        包含的 Shell 指令：`chmod` / `chown` / `chgrp`
 
     - 系统进程与服务
 
