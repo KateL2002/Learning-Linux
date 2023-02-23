@@ -12,6 +12,7 @@
 
 ```mermaid
 graph TB
+/ --> usr
 / --> bin
 / --> boot
 / --> dev
@@ -19,9 +20,7 @@ graph TB
 / --> home
 / --> root
 / --> run
-/ --> sbin
 / --> tmp
-/ --> usr
 / --> var
 
 home --> Alice

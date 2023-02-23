@@ -88,13 +88,13 @@
 
     - 🔖 [文件操作与编辑](Notes/Manager/FileEdit.md)：
 
-        学习文件是如何写入的，以及如何使用 vim 和 nano 等文本编辑器
+        学习文件是如何写入的，以及如何简单使用 vim 文本编辑器
 
-    - 权限管理
+    - 🔖 [权限管理]()
 
         包含的 Shell 指令：`chmod` / `chown` / `chgrp`
 
-    - 用户管理
+    - 🔖 [用户管理]()
 
         包含的 Shell 指令：`useradd` / `userdel` / `groupadd` / `groupdel`
 
